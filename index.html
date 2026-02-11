@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="id" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio Web Developer</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <script>
         tailwind.config = {
             theme: {
@@ -33,20 +35,25 @@
         body {
             box-sizing: border-box;
         }
+
         .gradient-bg {
             background: linear-gradient(135deg, #8B5CF6 0%, #F97316 100%);
         }
+
         .card-hover {
             transition: all 0.3s ease;
         }
+
         .card-hover:hover {
             transform: translateY(-8px);
             box-shadow: 0 20px 40px rgba(139, 92, 246, 0.2);
         }
+
         .nav-link {
             position: relative;
             transition: all 0.3s ease;
         }
+
         .nav-link::after {
             content: '';
             position: absolute;
@@ -57,14 +64,17 @@
             background: linear-gradient(90deg, #8B5CF6, #F97316);
             transition: width 0.3s ease;
         }
+
         .nav-link:hover::after {
             width: 100%;
         }
+
         .active::after {
             width: 100%;
         }
     </style>
 </head>
+
 <body class="font-poppins bg-white">
     <!-- Navigation -->
     <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 shadow-sm">
@@ -74,16 +84,21 @@
                     Harapmoon
                 </div>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#beranda" class="nav-link active text-gray-700 hover:text-purple-600 font-medium">Beranda</a>
+                    <a href="#beranda"
+                        class="nav-link active text-gray-700 hover:text-purple-600 font-medium">Beranda</a>
                     <a href="#project" class="nav-link text-gray-700 hover:text-purple-600 font-medium">Project</a>
                     <a href="#game" class="nav-link text-gray-700 hover:text-purple-600 font-medium">Game Edukatif</a>
-                    <a href="#infografis" class="nav-link text-gray-700 hover:text-purple-600 font-medium">Infografis & Web</a>
+                    <a href="#infografis" class="nav-link text-gray-700 hover:text-purple-600 font-medium">Infografis &
+                        Web</a>
                     <a href="#hasil" class="nav-link text-gray-700 hover:text-purple-600 font-medium">Hasil Project</a>
+                    <a href="#asisten" class="nav-link text-gray-700 hover:text-purple-600 font-medium">Asisten
+                        Virtual</a>
                     <a href="#kontak" class="nav-link text-gray-700 hover:text-purple-600 font-medium">Kontak</a>
                 </div>
                 <button id="mobile-menu-btn" class="md:hidden p-2">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
                 </button>
             </div>
@@ -96,6 +111,7 @@
                 <a href="#game" class="block px-3 py-2 text-gray-700 hover:text-purple-600">Game Edukatif</a>
                 <a href="#infografis" class="block px-3 py-2 text-gray-700 hover:text-purple-600">Infografis & Web</a>
                 <a href="#hasil" class="block px-3 py-2 text-gray-700 hover:text-purple-600">Hasil Project</a>
+                <a href="#asisten" class="block px-3 py-2 text-gray-700 hover:text-purple-600">Asisten Virtual</a>
                 <a href="#kontak" class="block px-3 py-2 text-gray-700 hover:text-purple-600">Kontak</a>
             </div>
         </div>
@@ -114,26 +130,32 @@
                             Creative & Innovative
                         </h2>
                         <p class="text-lg text-gray-600 leading-relaxed max-w-lg">
-                            Menggabungkan sejarah dan teknologi dalam karya digital yang edukatif dan inspiratif. Jelajahi dunia saya melalui game, website, infografis, dan virtual tour yang dirancang dengan presisi dan imajinasi.
+                            Menggabungkan sejarah dan teknologi dalam karya digital yang edukatif dan inspiratif.
+                            Jelajahi layanan saya — mulai dari game edukatif, website interaktif, infografis kreatif,
+                            hingga asisten virtual akademik dan jasa olah data SPSS serta pencarian responden
+                            terpercaya. Solusi lengkap untuk kebutuhan akademik dan riset Anda!
                         </p>
                     </div>
                     <div class="flex flex-wrap gap-4">
-                        <button class="gradient-bg text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                        <button
+                            class="gradient-bg text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
                             Lihat Portfolio
                         </button>
                     </div>
                 </div>
                 <div class="flex justify-center lg:justify-end">
                     <div class="relative">
-                        <div class="w-80 h-80 gradient-bg rounded-full flex items-center justify-center shadow-2xl overflow-hidden">
-                            <img 
-                                src="WhatsApp Image 2025-10-08 at 20.51.16_e1bd1d5b.jpg" 
-                                alt="Aryati Profile Photo" 
-                                class="w-full h-full object-cover"
-                            >
+                        <div
+                            class="w-80 h-80 gradient-bg rounded-full flex items-center justify-center shadow-2xl overflow-hidden">
+                            <img src="WhatsApp Image 2026-02-11 at 8.57.28 AM.jpeg" alt="Aryati Profile Photo"
+                                class="w-full h-full object-cover">
                         </div>
-                        <div class="absolute -top-4 -right-4 w-24 h-24 bg-orange-400 rounded-full opacity-20 animate-pulse"></div>
-                        <div class="absolute -bottom-4 -left-4 w-32 h-32 bg-purple-400 rounded-full opacity-20 animate-pulse"></div>
+                        <div
+                            class="absolute -top-4 -right-4 w-24 h-24 bg-orange-400 rounded-full opacity-20 animate-pulse">
+                        </div>
+                        <div
+                            class="absolute -bottom-4 -left-4 w-32 h-32 bg-purple-400 rounded-full opacity-20 animate-pulse">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -145,18 +167,157 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold text-gray-900 mb-4">Project Terbaru</h2>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Koleksi project terbaik yang telah saya kerjakan dengan berbagai teknologi modern</p>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Koleksi project terbaik yang telah saya kerjakan
+                    dengan berbagai teknologi modern</p>
             </div>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Row 1: Virtual Assistant, Jasa Haraprespon, Aplikasi Bahan Ajar -->
+                <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
+                    <div class="h-48 bg-gradient-to-br from-emerald-400 to-purple-600 flex items-center justify-center">
+                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                            <a href="#asisten"
+                                class="hover:text-purple-600 transition-colors duration-300 flex items-center">
+                                Virtual Assistant — CS Akademik
+                                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </a>
+                        </h3>
+                        <p class="text-gray-600 mb-4">Customer service virtual yang membantu guru, mahasiswa, dan dosen
+                            mengerjakan tugas akademik</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">Chatbot</span>
+                            <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm">AI
+                                Assistant</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">CS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 cursor-pointer"
+                    onclick="openHarapresponModal()">
+                    <div
+                        class="h-48 bg-gradient-to-br from-blue-500 to-orange-500 flex items-center justify-center relative">
+                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        <div class="absolute top-3 right-3 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
+                            <span class="text-white text-xs font-semibold">Klik untuk Pesan</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2 flex items-center">
+                            Jasa Haraprespon
+                            <svg class="w-4 h-4 ml-2 text-blue-500" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                            </svg>
+                        </h3>
+                        <p class="text-gray-600 mb-3">Jasa olah data menggunakan SPSS dan pencarian responden terpercaya
+                            untuk kebutuhan riset Anda</p>
+                        <div class="space-y-2 mb-4">
+                            <div class="flex items-center justify-between bg-blue-50 px-3 py-2 rounded-lg">
+                                <span class="text-sm text-gray-700">📊 Olah Data SPSS 25</span>
+                                <span class="text-sm font-bold text-blue-600">Rp 50.000</span>
+                            </div>
+                            <div class="flex items-center justify-between bg-orange-50 px-3 py-2 rounded-lg">
+                                <span class="text-sm text-gray-700">👥 Cari Responden</span>
+                                <span class="text-sm font-bold text-orange-600">Rp 75.000</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">SPSS</span>
+                            <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm">Responden</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">Riset</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 cursor-pointer group"
+                    onclick="openMediaAjarModal()">
+                    <div
+                        class="h-48 bg-gradient-to-br from-indigo-600 via-purple-600 to-purple-800 flex items-center justify-center relative overflow-hidden">
+                        <div
+                            class="absolute inset-0 opacity-20 group-hover:scale-110 transition-transform duration-500">
+                            <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                                <circle cx="50" cy="50" r="40" stroke="white" stroke-width="0.5"
+                                    stroke-dasharray="4 4" />
+                            </svg>
+                        </div>
+                        <span
+                            class="text-6xl transform group-hover:scale-110 transition-transform duration-300">📱</span>
+                        <div
+                            class="absolute top-3 right-3 bg-orange-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg animate-bounce">
+                            Best Seller 🔥
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3
+                            class="text-xl font-semibold text-gray-900 mb-2 group-hover:text-purple-600 transition-colors">
+                            Pemesanan Media Ajar Digital
+                        </h3>
+                        <p class="text-gray-600 mb-4 text-sm leading-relaxed">Ciptakan pengalaman belajar modern dengan
+                            media digital interaktif kustom sesuai kebutuhan Anda.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span
+                                class="px-2 py-1 bg-purple-50 text-purple-600 rounded-md text-[10px] font-bold uppercase tracking-wider">Aplikasi</span>
+                            <span
+                                class="px-2 py-1 bg-indigo-50 text-indigo-600 rounded-md text-[10px] font-bold uppercase tracking-wider">Game</span>
+                            <span
+                                class="px-2 py-1 bg-blue-50 text-blue-600 rounded-md text-[10px] font-bold uppercase tracking-wider">Website</span>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
                     <div class="h-48 gradient-bg flex items-center justify-center">
                         <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                            <a href="https://drive.google.com/file/d/1d8zQ8IPZlON4mqdreNCFJVzDnUIcIzal/view?usp=sharing"
+                                target="_blank"
+                                class="hover:text-purple-600 transition-colors duration-300 flex items-center">
+                                Aplikasi Bahan Ajar Interaktif
+                                <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path
+                                        d="M10 3v2H5v10h10v-5h2v6a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1h6zm7.707.293l-5.414 5.414 1.414 1.414L19.121 4.7A1 1 0 0017.707 3.293z" />
+                                </svg>
+                            </a>
+                        </h3>
+                        <p class="text-gray-600 mb-4">Aplikasi pembelajaran digital dengan konten interaktif, quiz,
+                            multimedia, dan fitur tracking progress</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">HTML5</span>
+                            <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm">CSS</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: E-Commerce, Website Bahan Ajar -->
+                <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
+                    <div class="h-48 gradient-bg flex items-center justify-center">
+                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                         </svg>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-900 mb-2">E-Commerce Platform</h3>
-                        <p class="text-gray-600 mb-4">Platform e-commerce modern dengan fitur lengkap dan user experience yang optimal</p>
+                        <p class="text-gray-600 mb-4">Platform e-commerce modern dengan fitur lengkap dan user
+                            experience yang optimal</p>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">HTML</span>
                             <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm">CSS</span>
@@ -168,72 +329,216 @@
                 <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
                     <div class="h-48 gradient-bg flex items-center justify-center">
                         <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-900 mb-2">
-                            <a href="https://drive.google.com/file/d/1d8zQ8IPZlON4mqdreNCFJVzDnUIcIzal/view?usp=sharing" 
-                               target="_blank" 
-                               class="hover:text-purple-600 transition-colors duration-300 flex items-center">
-                                Aplikasi Bahan Ajar Interaktif
-                                <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M10 3v2H5v10h10v-5h2v6a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1h6zm7.707.293l-5.414 5.414 1.414 1.414L19.121 4.7A1 1 0 0017.707 3.293z"/>
-                                </svg>
-                            </a>
-                        </h3>
-                        <p class="text-gray-600 mb-4">Aplikasi pembelajaran digital dengan konten interaktif, quiz, multimedia, dan fitur tracking progress</p>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">HTML5</span>
-                            <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm">CSS</span>
-                            <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">JavaScript</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
-                    <div class="h-48 gradient-bg flex items-center justify-center">
-                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-                        </svg>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">
-                            <a href="https://sites.google.com/program.belajar.id/haravipmoor/page" 
-                               target="_blank" 
-                               class="hover:text-purple-600 transition-colors duration-300">
+                            <a href="https://sites.google.com/program.belajar.id/haravipmoor/page" target="_blank"
+                                class="hover:text-purple-600 transition-colors duration-300">
                                 Website Bahan Ajar Interaktif
                             </a>
                         </h3>
-                        <p class="text-gray-600 mb-4">Platform pembelajaran digital dengan konten interaktif, quiz, dan multimedia</p>
+                        <p class="text-gray-600 mb-4">Platform pembelajaran digital dengan konten interaktif, quiz, dan
+                            multimedia</p>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">HTML5</span>
                             <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm">CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Haraprespon Modal -->
+            <div id="haraprespon-modal"
+                class="fixed inset-0 z-[60] hidden items-center justify-center bg-black/50 backdrop-blur-sm">
+                <div
+                    class="bg-white rounded-2xl shadow-2xl max-w-md w-full mx-4 overflow-hidden transform transition-all">
+                    <!-- Modal Header -->
+                    <div class="bg-gradient-to-r from-blue-500 to-orange-500 p-6 text-white relative">
+                        <button onclick="closeHarapresponModal()"
+                            class="absolute top-4 right-4 text-white/80 hover:text-white transition">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                        <div class="flex items-center gap-3 mb-2">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                            <h3 class="text-xl font-bold">Jasa Haraprespon</h3>
+                        </div>
+                        <p class="text-white/80 text-sm">Pilih paket layanan yang Anda butuhkan</p>
+                    </div>
+                    <!-- Modal Body -->
+                    <div class="p-6 space-y-4">
+                        <div id="paket-spss" onclick="selectPaket('spss')"
+                            class="paket-option border-2 border-gray-200 rounded-xl p-4 cursor-pointer hover:border-blue-400 hover:bg-blue-50 transition-all duration-300">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+                                        <span class="text-xl">📊</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900">Olah Data SPSS 25</h4>
+                                        <p class="text-sm text-gray-500">Analisis data lengkap menggunakan SPSS 25</p>
+                                    </div>
+                                </div>
+                                <span class="text-lg font-bold text-blue-600">Rp 50.000</span>
+                            </div>
+                        </div>
+                        <div id="paket-responden" onclick="selectPaket('responden')"
+                            class="paket-option border-2 border-gray-200 rounded-xl p-4 cursor-pointer hover:border-orange-400 hover:bg-orange-50 transition-all duration-300">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
+                                        <span class="text-xl">👥</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900">Cari Responden</h4>
+                                        <p class="text-sm text-gray-500">Pencarian responden terpercaya untuk riset Anda
+                                        </p>
+                                    </div>
+                                </div>
+                                <span class="text-lg font-bold text-orange-600">Rp 75.000</span>
+                            </div>
+                        </div>
+                        <div class="pt-2 text-center text-sm text-gray-400">Klik paket untuk langsung pesan via WhatsApp
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Media Ajar Digital Modal -->
+            <div id="media-ajar-modal"
+                class="fixed inset-0 z-[60] hidden items-center justify-center bg-black/50 backdrop-blur-sm">
+                <div
+                    class="bg-white rounded-2xl shadow-2xl max-w-4xl w-full mx-4 overflow-hidden transform transition-all flex flex-col max-h-[90vh]">
+                    <!-- Modal Header -->
+                    <div class="bg-gradient-to-r from-purple-600 to-indigo-600 p-6 text-white relative flex-shrink-0">
+                        <button onclick="closeMediaAjarModal()"
+                            class="absolute top-4 right-4 text-white/80 hover:text-white transition">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="text-3xl">📱</span>
+                            <h3 class="text-2xl font-bold">Pusat Pembuatan Media Ajar Digital</h3>
+                        </div>
+                        <p class="text-white/80">Pilih jenis media ajar yang ingin Anda buat untuk pembelajaran yang
+                            lebih
+                            interaktif</p>
+                    </div>
+
+                    <!-- Modal Body (Scrollable) -->
+                    <div class="p-6 overflow-y-auto custom-scrollbar">
+                        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                            <!-- Option 1: Aplikasi -->
+                            <div onclick="selectMediaAjar('aplikasi')"
+                                class="group border-2 border-gray-100 rounded-xl p-4 cursor-pointer hover:border-purple-500 hover:bg-purple-50 transition-all duration-300">
+                                <div
+                                    class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-3 group-hover:bg-purple-200 transition">
+                                    <span class="text-2xl">💻</span>
+                                </div>
+                                <h4 class="font-bold text-gray-900 mb-1">Aplikasi Interaktif</h4>
+                                <p class="text-sm text-gray-500 mb-2">Aplikasi berbasis HTML5/Android dengan kuis &
+                                    materi.
+                                </p>
+                                <span class="text-xs font-semibold text-purple-600 bg-purple-100 px-2 py-1 rounded">Best
+                                    Seller 🔥</span>
+                            </div>
+
+                            <!-- Option 2: Website -->
+                            <div onclick="selectMediaAjar('website')"
+                                class="group border-2 border-gray-100 rounded-xl p-4 cursor-pointer hover:border-blue-500 hover:bg-blue-50 transition-all duration-300">
+                                <div
+                                    class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-3 group-hover:bg-blue-200 transition">
+                                    <span class="text-2xl">🌐</span>
+                                </div>
+                                <h4 class="font-bold text-gray-900 mb-1">Website Pembelajaran</h4>
+                                <p class="text-sm text-gray-500">Google Sites / Web khusus untuk e-learning sekolah.</p>
+                            </div>
+
+                            <!-- Option 3: Game -->
+                            <div onclick="selectMediaAjar('game')"
+                                class="group border-2 border-gray-100 rounded-xl p-4 cursor-pointer hover:border-emerald-500 hover:bg-emerald-50 transition-all duration-300">
+                                <div
+                                    class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-3 group-hover:bg-emerald-200 transition">
+                                    <span class="text-2xl">🎮</span>
+                                </div>
+                                <h4 class="font-bold text-gray-900 mb-1">Game Edukatif</h4>
+                                <p class="text-sm text-gray-500">Game petualangan/kuis seru untuk siswa.</p>
+                            </div>
+
+                            <!-- Option 4: Infografis -->
+                            <div onclick="selectMediaAjar('infografis')"
+                                class="group border-2 border-gray-100 rounded-xl p-4 cursor-pointer hover:border-orange-500 hover:bg-orange-50 transition-all duration-300">
+                                <div
+                                    class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-3 group-hover:bg-orange-200 transition">
+                                    <span class="text-2xl">📊</span>
+                                </div>
+                                <h4 class="font-bold text-gray-900 mb-1">Infografis Digital</h4>
+                                <p class="text-sm text-gray-500">Poster/Modul visual yang menarik & ringkas.</p>
+                            </div>
+
+                            <!-- Option 5: Video -->
+                            <div onclick="selectMediaAjar('video')"
+                                class="group border-2 border-gray-100 rounded-xl p-4 cursor-pointer hover:border-red-500 hover:bg-red-50 transition-all duration-300">
+                                <div
+                                    class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-3 group-hover:bg-red-200 transition">
+                                    <span class="text-2xl">🎬</span>
+                                </div>
+                                <h4 class="font-bold text-gray-900 mb-1">Video Pembelajaran</h4>
+                                <p class="text-sm text-gray-500">Video animasi / explainer materi pelajaran.</p>
+                            </div>
+
+                            <!-- Option 6: E-Book -->
+                            <div onclick="selectMediaAjar('ebook')"
+                                class="group border-2 border-gray-100 rounded-xl p-4 cursor-pointer hover:border-indigo-500 hover:bg-indigo-50 transition-all duration-300">
+                                <div
+                                    class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-3 group-hover:bg-indigo-200 transition">
+                                    <span class="text-2xl">📚</span>
+                                </div>
+                                <h4 class="font-bold text-gray-900 mb-1">E-Book / Modul</h4>
+                                <p class="text-sm text-gray-500">Buku digital interaktif (Flipbook).</p>
+                            </div>
+                        </div>
+                        <div class="mt-6 text-center">
+                            <p class="text-sm text-gray-500">Klik salah satu pilihan di atas untuk konsultasi via
+                                WhatsApp
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Game Edukatif Section -->
     <section id="game" class="py-20 bg-gradient-to-br from-purple-50 to-orange-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold text-gray-900 mb-4">Game Edukatif Sejarah</h2>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Game interaktif yang mengajak pemain menjelajahi peristiwa bersejarah Indonesia dan dunia</p>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Game interaktif yang mengajak pemain menjelajahi
+                    peristiwa bersejarah Indonesia dan dunia</p>
             </div>
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden">
                     <div class="h-64 gradient-bg flex items-center justify-center">
                         <svg class="w-20 h-20 text-white" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12,2A2,2 0 0,1 14,4V8A2,2 0 0,1 12,10A2,2 0 0,1 10,8V4A2,2 0 0,1 12,2M12,10C13.1,10 14,10.9 14,12V16C14,17.1 13.1,18 12,18C10.9,18 10,17.1 10,16V12C10,10.9 10.9,10 12,10M12,18A2,2 0 0,1 14,20V22H10V20A2,2 0 0,1 12,18Z"/>
+                            <path
+                                d="M12,2A2,2 0 0,1 14,4V8A2,2 0 0,1 12,10A2,2 0 0,1 10,8V4A2,2 0 0,1 12,2M12,10C13.1,10 14,10.9 14,12V16C14,17.1 13.1,18 12,18C10.9,18 10,17.1 10,16V12C10,10.9 10.9,10 12,10M12,18A2,2 0 0,1 14,20V22H10V20A2,2 0 0,1 12,18Z" />
                         </svg>
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-semibold text-gray-900 mb-3">Mini Games Archery</h3>
-                        <p class="text-gray-600 mb-4">Petualangan melalui kerajaan-kerajaan Nusantara dari Majapahit hingga Sriwijaya dengan misi sejarah yang menarik</p>
-                        <button class="gradient-bg text-white px-6 py-2 rounded-full font-medium hover:shadow-lg transition-all duration-300">
+                        <p class="text-gray-600 mb-4">Petualangan melalui kerajaan-kerajaan Nusantara dari Majapahit
+                            hingga Sriwijaya dengan misi sejarah yang menarik</p>
+                        <button
+                            class="gradient-bg text-white px-6 py-2 rounded-full font-medium hover:shadow-lg transition-all duration-300">
                             Mulai Petualangan
                         </button>
                     </div>
@@ -241,13 +546,16 @@
                 <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden">
                     <div class="h-64 bg-gradient-to-br from-orange-400 to-purple-500 flex items-center justify-center">
                         <svg class="w-20 h-20 text-white" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12,2L13.09,8.26L22,9L14.74,13.74L17,22L12,18.27L7,22L9.26,13.74L2,9L10.91,8.26L12,2Z"/>
+                            <path
+                                d="M12,2L13.09,8.26L22,9L14.74,13.74L17,22L12,18.27L7,22L9.26,13.74L2,9L10.91,8.26L12,2Z" />
                         </svg>
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-semibold text-gray-900 mb-3">Pahlawan Quest</h3>
-                        <p class="text-gray-600 mb-4">Game strategi yang mengisahkan perjuangan para pahlawan Indonesia melawan penjajah dengan timeline interaktif</p>
-                        <button class="gradient-bg text-white px-6 py-2 rounded-full font-medium hover:shadow-lg transition-all duration-300">
+                        <p class="text-gray-600 mb-4">Game strategi yang mengisahkan perjuangan para pahlawan Indonesia
+                            melawan penjajah dengan timeline interaktif</p>
+                        <button
+                            class="gradient-bg text-white px-6 py-2 rounded-full font-medium hover:shadow-lg transition-all duration-300">
                             Bergabung
                         </button>
                     </div>
@@ -261,40 +569,47 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold text-gray-900 mb-4">Infografis & Web Sejarah</h2>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Visualisasi sejarah Indonesia yang menarik dan edukatif melalui desain modern</p>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Visualisasi sejarah Indonesia yang menarik dan
+                    edukatif melalui desain modern</p>
             </div>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
                     <div class="h-48 gradient-bg flex items-center justify-center">
                         <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12,2L13.09,8.26L22,9L14.74,13.74L17,22L12,18.27L7,22L9.26,13.74L2,9L10.91,8.26L12,2Z"/>
+                            <path
+                                d="M12,2L13.09,8.26L22,9L14.74,13.74L17,22L12,18.27L7,22L9.26,13.74L2,9L10.91,8.26L12,2Z" />
                         </svg>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-900 mb-2">Template IG & Stories</h3>
-                        <p class="text-gray-600">Koleksi template Instagram feed dan stories dengan tema sejarah Indonesia yang menarik dan edukatif</p>
+                        <p class="text-gray-600">Koleksi template Instagram feed dan stories dengan tema sejarah
+                            Indonesia yang menarik dan edukatif</p>
                     </div>
                 </div>
                 <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
                     <div class="h-48 bg-gradient-to-br from-orange-400 to-purple-500 flex items-center justify-center">
                         <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12,2A2,2 0 0,1 14,4V8A2,2 0 0,1 12,10A2,2 0 0,1 10,8V4A2,2 0 0,1 12,2M12,10C13.1,10 14,10.9 14,12V16C14,17.1 13.1,18 12,18C10.9,18 10,17.1 10,16V12C10,10.9 10.9,10 12,10M12,18A2,2 0 0,1 14,20V22H10V20A2,2 0 0,1 12,18Z"/>
+                            <path
+                                d="M12,2A2,2 0 0,1 14,4V8A2,2 0 0,1 12,10A2,2 0 0,1 10,8V4A2,2 0 0,1 12,2M12,10C13.1,10 14,10.9 14,12V16C14,17.1 13.1,18 12,18C10.9,18 10,17.1 10,16V12C10,10.9 10.9,10 12,10M12,18A2,2 0 0,1 14,20V22H10V20A2,2 0 0,1 12,18Z" />
                         </svg>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-900 mb-2">Sejarah Maritim</h3>
-                        <p class="text-gray-600">Visualisasi perjalanan pelaut Nusantara, jalur perdagangan rempah, dan kejayaan maritim Indonesia di masa lalu</p>
+                        <p class="text-gray-600">Visualisasi perjalanan pelaut Nusantara, jalur perdagangan rempah, dan
+                            kejayaan maritim Indonesia di masa lalu</p>
                     </div>
                 </div>
                 <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
                     <div class="h-48 bg-gradient-to-br from-purple-500 to-orange-400 flex items-center justify-center">
                         <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M19,3H5C3.9,3 3,3.9 3,5V19C3,20.1 3.9,21 5,21H19C20.1,21 21,20.1 21,19V5C21,3.9 20.1,3 19,3M19,19H5V5H19V19Z"/>
+                            <path
+                                d="M19,3H5C3.9,3 3,3.9 3,5V19C3,20.1 3.9,21 5,21H19C20.1,21 21,20.1 21,19V5C21,3.9 20.1,3 19,3M19,19H5V5H19V19Z" />
                         </svg>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-900 mb-2">Museum Virtual</h3>
-                        <p class="text-gray-600">Website museum sejarah dengan tur virtual dan koleksi artefak digital</p>
+                        <p class="text-gray-600">Website museum sejarah dengan tur virtual dan koleksi artefak digital
+                        </p>
                     </div>
                 </div>
             </div>
@@ -306,50 +621,181 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold text-gray-900 mb-4">Hasil Project</h2>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Galeri hasil karya dan project yang telah diselesaikan dengan berbagai teknologi</p>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Galeri hasil karya dan project yang telah
+                    diselesaikan dengan berbagai teknologi</p>
             </div>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
-                    <img 
-                        src="Versi Potrait Panduan-Penggunaan-Google-Sites-untuk-Museum-Digital-Maritim.pptx (11).png" 
-                        alt="Project 1" 
-                        class="h-80 w-full object-cover"
-                    >
+                    <img src="Versi Potrait Panduan-Penggunaan-Google-Sites-untuk-Museum-Digital-Maritim.pptx (11).png"
+                        alt="Project 1" class="h-80 w-full object-cover">
                 </div>
                 <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
-                    <img 
-                        src="UTS.png" 
-                        alt="Project 2" 
-                        class="h-80 w-full object-cover"
-                    >
+                    <img src="UTS.png" alt="Project 2" class="h-80 w-full object-cover">
                 </div>
                 <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
-                    <img 
-                        src="hUMAS.png"
-                        alt="Project 3" 
-                        class="h-80 w-full object-cover"
-                    >
+                    <img src="UTS2.png" alt="Project 3" class="h-80 w-full object-cover">
                 </div>
                 <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
-                    <img 
-                        src="pk.png"
-                        alt="Project 4" 
-                        class="h-80 w-full object-cover"
-                    >
+                    <img src="pk.png" alt="Project 4" class="h-80 w-full object-cover">
                 </div>
                 <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
-                    <img 
-                        src="Blue Creative Tour and Travel Trifold Brochure.png"
-                        alt="Project 5" 
-                        class="h-80 w-full object-cover"
-                    >
+                    <img src="struktur kelas X-5.png" alt="Project 5" class="h-80 w-full object-cover">
                 </div>
                 <div class="card-hover bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
-                    <img 
-                        src="APK.jpg" 
-                        alt="Project 6" 
-                        class="h-80 w-full object-cover"
-                    >
+                    <img src="APK.jpg" alt="Project 6" class="h-80 w-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Virtual Assistant / Customer Service Section -->
+    <section id="asisten" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Virtual Assistant — Customer Service Akademik</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Asisten virtual yang siap membantu guru, mahasiswa,
+                    dan dosen mengerjakan tugas akademik secara interaktif</p>
+            </div>
+
+            <!-- Role Selection -->
+            <div class="flex flex-wrap justify-center gap-4 mb-10" id="role-selection">
+                <button onclick="selectRole('guru')"
+                    class="role-btn px-6 py-3 rounded-full border-2 border-purple-300 text-purple-600 font-semibold hover:bg-purple-600 hover:text-white transition-all duration-300 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                    Guru
+                </button>
+                <button onclick="selectRole('mahasiswa')"
+                    class="role-btn px-6 py-3 rounded-full border-2 border-orange-300 text-orange-600 font-semibold hover:bg-orange-500 hover:text-white transition-all duration-300 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                    </svg>
+                    Mahasiswa
+                </button>
+                <button onclick="selectRole('dosen')"
+                    class="role-btn px-6 py-3 rounded-full border-2 border-emerald-300 text-emerald-600 font-semibold hover:bg-emerald-500 hover:text-white transition-all duration-300 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                    </svg>
+                    Dosen
+                </button>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Chatbot -->
+                <div class="lg:col-span-2">
+                    <div class="bg-gray-50 rounded-2xl shadow-lg overflow-hidden border border-gray-200">
+                        <!-- Chat Header -->
+                        <div class="gradient-bg p-4 flex items-center gap-3">
+                            <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-semibold">Harapmoon Assistant</h3>
+                                <p class="text-white/70 text-sm" id="role-label">Pilih peran Anda di atas</p>
+                            </div>
+                            <div class="ml-auto flex items-center gap-2">
+                                <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+                                <span class="text-white/70 text-sm">Online</span>
+                            </div>
+                        </div>
+                        <!-- Chat Messages -->
+                        <div id="chat-messages" class="p-4 h-96 overflow-y-auto space-y-4"
+                            style="scroll-behavior:smooth">
+                            <div class="flex items-start gap-3">
+                                <div
+                                    class="w-8 h-8 gradient-bg rounded-full flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                    </svg>
+                                </div>
+                                <div class="bg-white rounded-2xl rounded-tl-none p-4 shadow-sm max-w-md">
+                                    <p class="text-gray-700">Halo! 👋 Saya asisten virtual Harapmoon. Silakan pilih
+                                        peran Anda (Guru / Mahasiswa / Dosen) lalu ketik pertanyaan atau gunakan tombol
+                                        aksi cepat di samping.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Quick Actions (inside chat) -->
+                        <div class="px-4 pb-2 flex flex-wrap gap-2" id="quick-chips">
+                            <button onclick="sendQuickMsg('Bantuan mengerjakan tugas')"
+                                class="text-xs px-3 py-1.5 bg-purple-100 text-purple-600 rounded-full hover:bg-purple-200 transition">Bantuan
+                                Tugas</button>
+                            <button onclick="sendQuickMsg('Cara membuat materi ajar interaktif')"
+                                class="text-xs px-3 py-1.5 bg-orange-100 text-orange-600 rounded-full hover:bg-orange-200 transition">Buat
+                                Materi Ajar</button>
+                            <button onclick="sendQuickMsg('Carikan referensi jurnal untuk penelitian')"
+                                class="text-xs px-3 py-1.5 bg-emerald-100 text-emerald-600 rounded-full hover:bg-emerald-200 transition">Cari
+                                Referensi</button>
+                            <button onclick="sendQuickMsg('Bantu buatkan RPP dan Silabus')"
+                                class="text-xs px-3 py-1.5 bg-blue-100 text-blue-600 rounded-full hover:bg-blue-200 transition">Buat
+                                RPP/Silabus</button>
+                        </div>
+                        <!-- Chat Input -->
+                        <div class="p-4 border-t border-gray-200 flex gap-2">
+                            <input type="text" id="chat-input" placeholder="Ketik pesan Anda..."
+                                class="flex-1 px-4 py-3 border border-gray-300 rounded-full focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                                onkeydown="if(event.key==='Enter')sendChat()">
+                            <button onclick="sendChat()"
+                                class="gradient-bg text-white px-5 py-3 rounded-full hover:shadow-lg transition-all duration-300 flex items-center gap-1">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar: FAQ + WhatsApp -->
+                <div class="space-y-6">
+                    <!-- Media Ajar Digital Menu -->
+                    <div
+                        class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-6 shadow-lg border border-indigo-100">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="w-10 h-10 bg-indigo-600 rounded-lg flex items-center justify-center">
+                                <span class="text-xl">📱</span>
+                            </div>
+                            <h4 class="text-lg font-bold text-gray-900">Media Ajar Digital</h4>
+                        </div>
+                        <p class="text-sm text-gray-600 mb-4">Pesan pembuatan aplikasi, game, atau media pembelajaran
+                            interaktif lainnya.</p>
+                        <button onclick="openMediaAjarModal()"
+                            class="w-full bg-indigo-600 text-white py-3 rounded-xl font-semibold hover:bg-indigo-700 transition-all duration-300 flex items-center justify-center gap-2 shadow-md hover:shadow-lg">
+                            Pilih Jenis Media
+                        </button>
+                    </div>
+
+                    <!-- WhatsApp Escalation -->
+                    <div class="bg-gray-900 rounded-2xl p-6 text-center shadow-lg">
+                        <div class="w-14 h-14 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                            </svg>
+                        </div>
+                        <h4 class="text-white font-bold text-lg mb-2">Butuh Bantuan Lebih?</h4>
+                        <p class="text-gray-400 text-sm mb-4">Hubungi customer service kami langsung via WhatsApp untuk
+                            konsultasi lebih detail</p>
+                        <a href="https://wa.me/6281367770401?text=Halo%20Harapmoon%2C%20saya%20butuh%20bantuan%20untuk%20tugas%20akademik"
+                            target="_blank"
+                            class="inline-flex items-center gap-2 bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 hover:shadow-lg transition-all duration-300">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                            </svg>
+                            Chat WhatsApp CS
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -360,68 +806,48 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold text-gray-900 mb-4">Mari Berkolaborasi</h2>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Siap untuk memulai project bersama? Hubungi saya untuk diskusi lebih lanjut</p>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Siap untuk memulai project bersama? Hubungi saya
+                    untuk diskusi lebih lanjut</p>
             </div>
-            <div class="grid lg:grid-cols-2 gap-12">
-                <div class="space-y-8">
-                    <div class="flex items-center space-x-4">
-                        <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center">
-                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4M20,8L12,13L4,8V6L12,11L20,6V8Z"/>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="text-lg font-semibold text-gray-900">Email</h3>
-                            <p class="text-gray-600">harapmoon@gmail.com</p>
-                        </div>
+            <div class="flex flex-wrap justify-center gap-8 md:gap-12">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4M20,8L12,13L4,8V6L12,11L20,6V8Z" />
+                        </svg>
                     </div>
-                    <div class="flex items-center space-x-4">
-                        <div class="w-12 h-12 bg-gradient-to-br from-orange-400 to-purple-500 rounded-lg flex items-center justify-center">
-                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z"/>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="text-lg font-semibold text-gray-900">Telepon</h3>
-                            <p class="text-gray-600">+6281367770401</p>
-                        </div>
-                    </div>
-                    <div class="flex items-center space-x-4">
-                        <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-orange-400 rounded-lg flex items-center justify-center">
-                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"/>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="text-lg font-semibold text-gray-900">Lokasi</h3>
-                            <p class="text-gray-600">Ciamis, Indonesia</p>
-                        </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">Email</h3>
+                        <p class="text-gray-600">harapmoon@gmail.com</p>
                     </div>
                 </div>
-                <form class="bg-gradient-to-br from-purple-50 to-orange-50 p-8 rounded-2xl">
-                    <div class="space-y-6">
-                        <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-2">Nama</label>
-                            <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300">
-                        </div>
-                        <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
-                            <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300">
-                        </div>
-                        <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-2">Pesan</label>
-                            <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"></textarea>
-                        </div>
-                        <a href="https://wa.me/6281367770401" 
-                           target="_blank" 
-                           class="w-full gradient-bg text-white py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
-                            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-                            </svg>
-                            Hubungi via WhatsApp
-                        </a>
+                <div class="flex items-center space-x-4">
+                    <div
+                        class="w-12 h-12 bg-gradient-to-br from-orange-400 to-purple-500 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+                        </svg>
                     </div>
-                </form>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">Telepon</h3>
+                        <p class="text-gray-600">+6281367770401</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div
+                        class="w-12 h-12 bg-gradient-to-br from-purple-500 to-orange-400 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">Lokasi</h3>
+                        <p class="text-gray-600">Ciamis, Indonesia</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -437,17 +863,20 @@
                 <div class="flex justify-center space-x-6">
                     <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            <path
+                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
                         </svg>
                     </a>
                     <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                         </svg>
                     </a>
                     <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                         </svg>
                     </a>
                 </div>
@@ -459,10 +888,42 @@
     </footer>
 
     <script>
+        // ===== HARAPRESPON MODAL =====
+        function openHarapresponModal() {
+            const modal = document.getElementById('haraprespon-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeHarapresponModal() {
+            const modal = document.getElementById('haraprespon-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+
+        function selectPaket(paket) {
+            let message = '';
+            if (paket === 'spss') {
+                message = 'Halo Harapmoon, saya ingin memesan paket *Olah Data SPSS 25* (Rp 50.000). Mohon informasi lebih lanjut. Terima kasih!';
+            } else if (paket === 'responden') {
+                message = 'Halo Harapmoon, saya ingin memesan paket *Cari Responden* (Rp 75.000). Mohon informasi lebih lanjut. Terima kasih!';
+            }
+            const waUrl = 'https://wa.me/6281367770401?text=' + encodeURIComponent(message);
+            window.open(waUrl, '_blank');
+            closeHarapresponModal();
+        }
+
+        // Close modal on backdrop click
+        document.getElementById('haraprespon-modal').addEventListener('click', function (e) {
+            if (e.target === this) closeHarapresponModal();
+        });
+
         // Mobile menu toggle
         const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
-        
+
         mobileMenuBtn.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
         });
@@ -487,7 +948,7 @@
         window.addEventListener('scroll', () => {
             const sections = document.querySelectorAll('section[id]');
             const navLinks = document.querySelectorAll('.nav-link');
-            
+
             let current = '';
             sections.forEach(section => {
                 const sectionTop = section.offsetTop - 100;
@@ -504,42 +965,22 @@
             });
         });
 
-        // Form submission
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(this);
-            const name = this.querySelector('input[type="text"]').value;
-            const email = this.querySelector('input[type="email"]').value;
-            const message = this.querySelector('textarea').value;
-            
-            // Simple validation
-            if (!name || !email || !message) {
-                showNotification('Mohon lengkapi semua field!', 'error');
-                return;
-            }
-            
-            // Simulate form submission
-            showNotification('Pesan berhasil dikirim! Terima kasih atas pesan Anda.', 'success');
-            this.reset();
-        });
+
 
         // Notification function
         function showNotification(message, type) {
             const notification = document.createElement('div');
-            notification.className = `fixed top-20 right-4 z-50 p-4 rounded-lg shadow-lg transition-all duration-300 transform translate-x-full ${
-                type === 'success' ? 'bg-green-500 text-white' : 'bg-red-500 text-white'
-            }`;
+            notification.className = `fixed top-20 right-4 z-50 p-4 rounded-lg shadow-lg transition-all duration-300 transform translate-x-full ${type === 'success' ? 'bg-green-500 text-white' : 'bg-red-500 text-white'
+                }`;
             notification.textContent = message;
-            
+
             document.body.appendChild(notification);
-            
+
             // Animate in
             setTimeout(() => {
                 notification.classList.remove('translate-x-full');
             }, 100);
-            
+
             // Remove after 3 seconds
             setTimeout(() => {
                 notification.classList.add('translate-x-full');
@@ -571,13 +1012,145 @@
             card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
             observer.observe(card);
         });
+
+        // ===== VIRTUAL ASSISTANT CHATBOT =====
+        let currentRole = '';
+        const chatMessages = document.getElementById('chat-messages');
+        const chatInput = document.getElementById('chat-input');
+        const roleLabel = document.getElementById('role-label');
+
+        const responses = {
+            guru: {
+                'tugas': 'Untuk membantu mengerjakan tugas, saya bisa membantu Anda membuat: ✅ RPP Kurikulum Merdeka\n✅ Modul Ajar\n✅ Soal HOTS\n✅ Rubrik Penilaian\n\nSilakan ketik topik spesifik yang Anda butuhkan!',
+                'rpp': 'Untuk membuat RPP Kurikulum Merdeka:\n1️⃣ Tentukan Capaian Pembelajaran (CP)\n2️⃣ Rumuskan Tujuan Pembelajaran (TP)\n3️⃣ Susun Alur Tujuan Pembelajaran (ATP)\n4️⃣ Buat asesmen diagnostik, formatif & sumatif\n5️⃣ Rancang kegiatan pembelajaran\n\nMau saya bantu buatkan template RPP untuk mata pelajaran apa?',
+                'silabus': 'Untuk menyusun silabus Kurikulum Merdeka, komponen utamanya:\n📌 Identitas sekolah & mata pelajaran\n📌 Capaian Pembelajaran (CP)\n📌 Tujuan Pembelajaran\n📌 Materi, metode, dan asesmen\n\nHubungi CS kami via WhatsApp untuk bantuan lebih detail!',
+                'materi': 'Saya bisa membantu membuat materi ajar interaktif menggunakan:\n🖥️ Google Sites\n📊 Canva for Education\n🎮 Wordwall / Quizizz\n📱 Genially\n\nTeknologi mana yang ingin Anda gunakan?',
+                'soal': 'Tips membuat soal HOTS:\n🎯 Gunakan stimulus (teks, gambar, grafik)\n🎯 Level C4 (Analisis), C5 (Evaluasi), C6 (Mencipta)\n🎯 Kontekstualisasi dengan kehidupan nyata\n🎯 Hindari soal hafalan\n\nMau saya bantu buatkan contoh soal HOTS untuk mata pelajaran apa?',
+                'metode': 'Metode pembelajaran aktif yang direkomendasikan:\n🔹 Problem-Based Learning (PBL)\n🔹 Project-Based Learning (PjBL)\n🔹 Discovery Learning\n🔹 Inquiry-Based Learning\n🔹 Cooperative Learning (Jigsaw, STAD)\n\nPilih metode mana yang ingin Anda terapkan?',
+                'media': 'Layanan Pembuatan Media Ajar Digital kami meliputi:\n1. 💻 Aplikasi Interaktif\n2. 🌐 Website Pembelajaran\n3. 🎮 Game Edukatif\n4. 🎬 Video Animasi\n\nKlik tombol "📱 Pesan Media Ajar Digital" di atas chat untuk melihat katalog lengkapnya!',
+                'default': 'Terima kasih atas pertanyaannya, Bapak/Ibu Guru! 🙏\n\nSaya bisa membantu Anda dengan:\n📝 Membuat RPP & Silabus\n📚 Menyiapkan Materi Ajar\n✏️ Membuat Soal HOTS\n💡 Rekomendasi Metode Pembelajaran\n📱 Pembuatan Media Ajar Digital\n\nKetik topik yang dibutuhkan atau hubungi CS kami via WhatsApp!'
+            },
+            mahasiswa: {
+                'tugas': 'Saya siap membantu tugas Anda! 📝\nBeritahu saya:\n1️⃣ Mata kuliah apa?\n2️⃣ Jenis tugas (makalah, presentasi, laporan)?\n3️⃣ Deadline kapan?\n\nSaya akan memberikan panduan langkah demi langkah!',
+                'skripsi': 'Panduan menulis skripsi:\n📖 Bab 1: Pendahuluan (latar belakang, rumusan masalah, tujuan)\n📖 Bab 2: Tinjauan Pustaka & Kerangka Teori\n📖 Bab 3: Metodologi Penelitian\n📖 Bab 4: Hasil & Pembahasan\n📖 Bab 5: Penutup\n\nBagian mana yang sedang Anda kerjakan?',
+                'abstrak': 'Tips menulis abstrak yang baik:\n✅ Maksimal 250 kata\n✅ Berisi: latar belakang, tujuan, metode, hasil, kesimpulan\n✅ Gunakan kalimat efektif\n✅ Hindari singkatan & referensi\n✅ Tulis kata kunci (3-5 kata)\n\nKirimkan topik penelitian Anda, saya bantu buatkan draft abstrak!',
+                'referensi': 'Sumber referensi jurnal terpercaya:\n📚 Google Scholar (scholar.google.com)\n📚 SINTA (sinta.kemdikbud.go.id)\n📚 Garuda (garuda.kemdikbud.go.id)\n📚 ResearchGate\n📚 DOAJ (Directory of Open Access Journals)\n\nTopik penelitian Anda apa? Saya bantu carikan keyword yang tepat!',
+                'makalah': 'Struktur makalah akademik:\n1️⃣ Cover & Daftar Isi\n2️⃣ Pendahuluan\n3️⃣ Pembahasan / Isi\n4️⃣ Penutup (Kesimpulan & Saran)\n5️⃣ Daftar Pustaka\n\nGunakan format APA Style untuk sitasi. Topik makalah Anda apa?',
+                'media': 'Layanan Pembuatan Media Ajar Digital kami meliputi:\n1. 💻 Aplikasi Interaktif\n2. 🌐 Website Pembelajaran\n3. 🎮 Game Edukatif\n4. 🎬 Video Animasi\n\nKlik tombol "📱 Pesan Media Ajar Digital" di atas chat untuk melihat katalog lengkapnya!',
+                'default': 'Halo Mahasiswa! 👋\n\nSaya bisa membantu Anda dengan:\n📝 Mengerjakan Tugas Kuliah\n📄 Menulis Skripsi/Makalah\n🔍 Mencari Referensi Jurnal\n📊 Analisis Data Penelitian\n📱 Pembuatan Media Ajar Digital\n\nKetik kebutuhan Anda atau hubungi CS via WhatsApp!'
+            },
+            dosen: {
+                'tugas': 'Saya bisa membantu Bapak/Ibu Dosen dengan:\n📋 Penyusunan RPS (Rencana Pembelajaran Semester)\n📝 Pembuatan bahan ajar & modul\n📊 Rubrik penilaian\n🔬 Panduan penelitian & pengabdian\n\nSilakan pilih yang dibutuhkan!',
+                'penelitian': 'Panduan penelitian akademik:\n🔬 Identifikasi gap penelitian\n📋 Susun proposal (latar belakang, metode, anggaran)\n📊 Analisis data (kuantitatif/kualitatif)\n📝 Penulisan artikel ilmiah\n📚 Submit ke jurnal terakreditasi\n\nTahap mana yang sedang Anda kerjakan?',
+                'jurnal': 'Tips publikasi jurnal terakreditasi:\n✅ Pilih jurnal sesuai scope (SINTA 1-6)\n✅ Ikuti template & author guidelines\n✅ Pastikan novelty & kontribusi jelas\n✅ Gunakan reference manager (Mendeley/Zotero)\n✅ Siapkan cover letter\n\nPerlu bantuan memilih jurnal yang tepat?',
+                'rps': 'Komponen RPS yang harus ada:\n📌 Identitas MK & Dosen\n📌 Capaian Pembelajaran Lulusan (CPL)\n📌 CPMK & Sub-CPMK\n📌 Materi per pertemuan (16 minggu)\n📌 Metode & media pembelajaran\n📌 Asesmen & bobot penilaian\n📌 Referensi\n\nMau saya bantu buatkan template RPS?',
+                'kualitatif': 'Analisis data kualitatif:\n1️⃣ Reduksi data (coding & kategorisasi)\n2️⃣ Penyajian data (tematik/naratif)\n3️⃣ Penarikan kesimpulan & verifikasi\n\nTools: NVivo, Atlas.ti, atau manual coding\nMetode: Miles & Huberman, Creswell, atau Spradley\n\nMetode mana yang Anda gunakan?',
+                'media': 'Layanan Pembuatan Media Ajar Digital kami meliputi:\n1. 💻 Aplikasi Interaktif\n2. 🌐 Website Pembelajaran\n3. 🎮 Game Edukatif\n4. 🎬 Video Animasi\n\nKlik tombol "📱 Pesan Media Ajar Digital" di atas chat untuk melihat katalog lengkapnya!',
+                'default': 'Selamat datang, Bapak/Ibu Dosen! 🎓\n\nSaya siap membantu:\n📋 Penyusunan RPS\n🔬 Panduan Penelitian\n📝 Publikasi Jurnal\n📊 Analisis Data\n📚 Pengembangan Bahan Ajar\n📱 Media Ajar Digital\n\nKetik kebutuhan Anda atau hubungi CS via WhatsApp!'
+            }
+        };
+
+        function selectRole(role) {
+            currentRole = role;
+            const labels = { guru: '🎓 Mode: Guru', mahasiswa: '📚 Mode: Mahasiswa', dosen: '🔬 Mode: Dosen' };
+            roleLabel.textContent = labels[role] || 'Pilih peran Anda';
+            document.querySelectorAll('.role-btn').forEach(btn => {
+                btn.classList.remove('bg-purple-600', 'bg-orange-500', 'bg-emerald-500', 'text-white', 'ring-2', 'ring-offset-2');
+            });
+            const btnIdx = { guru: 0, mahasiswa: 1, dosen: 2 };
+            const colors = { guru: 'bg-purple-600', mahasiswa: 'bg-orange-500', dosen: 'bg-emerald-500' };
+            const activeBtn = document.querySelectorAll('.role-btn')[btnIdx[role]];
+            activeBtn.classList.add(colors[role], 'text-white', 'ring-2', 'ring-offset-2');
+            addBotMessage('Anda memilih peran sebagai <strong>' + role.charAt(0).toUpperCase() + role.slice(1) + '</strong>. Silakan ketik pertanyaan atau pilih aksi cepat! 😊');
+        }
+
+        function addBotMessage(text) {
+            const div = document.createElement('div');
+            div.className = 'flex items-start gap-3';
+            div.innerHTML = `<div class="w-8 h-8 gradient-bg rounded-full flex items-center justify-center flex-shrink-0"><svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/></svg></div><div class="bg-white rounded-2xl rounded-tl-none p-4 shadow-sm max-w-md"><p class="text-gray-700 whitespace-pre-line">${text}</p></div>`;
+            chatMessages.appendChild(div);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function addUserMessage(text) {
+            const div = document.createElement('div');
+            div.className = 'flex items-start gap-3 justify-end';
+            div.innerHTML = `<div class="bg-gradient-to-r from-purple-500 to-orange-400 rounded-2xl rounded-tr-none p-4 shadow-sm max-w-md"><p class="text-white">${text}</p></div>`;
+            chatMessages.appendChild(div);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function getResponse(msg) {
+            const role = currentRole || 'guru';
+            const lower = msg.toLowerCase();
+            const roleData = responses[role];
+            for (const key in roleData) {
+                if (key !== 'default' && lower.includes(key)) return roleData[key];
+            }
+            return roleData['default'];
+        }
+
+        function sendChat() {
+            const msg = chatInput.value.trim();
+            if (!msg) return;
+            addUserMessage(msg);
+            chatInput.value = '';
+            // Typing indicator
+            const typing = document.createElement('div');
+            typing.className = 'flex items-start gap-3 typing-indicator';
+            typing.innerHTML = `<div class="w-8 h-8 gradient-bg rounded-full flex items-center justify-center flex-shrink-0"><svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/></svg></div><div class="bg-white rounded-2xl rounded-tl-none p-4 shadow-sm"><p class="text-gray-400">Mengetik...</p></div>`;
+            chatMessages.appendChild(typing);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+            setTimeout(() => {
+                typing.remove();
+                addBotMessage(getResponse(msg));
+            }, 800 + Math.random() * 700);
+        }
+
+        function sendQuickMsg(msg) {
+            chatInput.value = msg;
+            sendChat();
+        }
+
+        // ===== MEDIA AJAR MODAL =====
+        function openMediaAjarModal() {
+            const modal = document.getElementById('media-ajar-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMediaAjarModal() {
+            const modal = document.getElementById('media-ajar-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+
+        // Close modal on backdrop click
+        document.getElementById('media-ajar-modal').addEventListener('click', function (e) {
+            if (e.target === this) closeMediaAjarModal();
+        });
+
+        function selectMediaAjar(jenis) {
+            let label = '';
+            switch (jenis) {
+                case 'aplikasi': label = 'Aplikasi Bahan Ajar Interaktif'; break;
+                case 'website': label = 'Website Pembelajaran (Google Sites)'; break;
+                case 'game': label = 'Game Edukatif'; break;
+                case 'infografis': label = 'Infografis Digital'; break;
+                case 'video': label = 'Video Pembelajaran'; break;
+                case 'ebook': label = 'E-Book / Modul Digital'; break;
+            }
+
+            const message = `Halo Harapmoon! 👋\nSaya tertarik memesan pembuatan *${label}*.\n\n📋 *Detail Request:*\n- Mata Pelajaran: \n- Kelas/Jenjang: \n- Topik Materi: \n- Deadline: \n\nMohon info harga dan estimasi pengerjaan. Terima kasih! 🙏`;
+
+            const waUrl = 'https://wa.me/6281367770401?text=' + encodeURIComponent(message);
+            window.open(waUrl, '_blank');
+            closeMediaAjarModal();
+        }
     </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'98eff8a402469af4',t:'MTc2MDUzODE3NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+    <script>(function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'98eff8a402469af4',t:'MTc2MDUzODE3NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
+</body>
+
 </html>
-
-
-
-
-
-
-
